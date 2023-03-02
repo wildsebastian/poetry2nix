@@ -1218,6 +1218,9 @@
   "authres": [
     "setuptools"
   ],
+  "authy": [
+    "setuptools"
+  ],
   "autobahn": [
     "setuptools"
   ],
@@ -2856,6 +2859,9 @@
   "ckcc-protocol": [
     "setuptools"
   ],
+  "clamd": [
+    "setuptools"
+  ],
   "claripy": [
     "setuptools"
   ],
@@ -2995,6 +3001,9 @@
     "setuptools"
   ],
   "cloudsplaining": [
+    "setuptools"
+  ],
+  "cloudinary": [
     "setuptools"
   ],
   "cloup": [
@@ -3652,6 +3661,9 @@
   "dateparser": [
     "setuptools"
   ],
+  "datetime-quarter": [
+    "setuptools"
+  ],
   "dateutil": [
     "setuptools",
     "setuptools-scm"
@@ -3973,10 +3985,22 @@
   "django-4": [
     "setuptools"
   ],
+  "django-address": [
+    "poetry"
+  ],
+  "django-admin-logs": [
+    "setuptools"
+  ],
+  "django-admin-sortable": [
+    "setuptools"
+  ],
   "django-admin-sortable2": [
     "setuptools"
   ],
   "django-allauth": [
+    "setuptools"
+  ],
+  "django-annoying": [
     "setuptools"
   ],
   "django-anymail": [
@@ -3988,6 +4012,9 @@
   "django-auth-ldap": [
     "setuptools",
     "setuptools-scm"
+  ],
+  "django-bleach": [
+    "setuptools"
   ],
   "django-cache-memoize": [
     "setuptools"
@@ -4002,6 +4029,9 @@
     "setuptools"
   ],
   "django-celery-email": [
+    "setuptools"
+  ],
+  "django-ckeditor": [
     "setuptools"
   ],
   "django-classytags": [
@@ -4029,6 +4059,9 @@
     "setuptools",
     "setuptools-scm"
   ],
+  "django-constance": [
+    "setuptools"
+  ],
   "django-contrib-comments": [
     "setuptools"
   ],
@@ -4039,6 +4072,9 @@
     "setuptools"
   ],
   "django-coverage-plugin": [
+    "setuptools"
+  ],
+  "django-cprofile-middleware": [
     "setuptools"
   ],
   "django-crispy-forms": [
@@ -4058,7 +4094,14 @@
     {
       "buildSystem": "hatchling",
       "from": "3.8.0"
+    },
+    {
+      "buildSystem": "hatch-vcs",
+      "from": "3.8.0"
     }
+  ],
+  "django-deprecate-fields": [
+    "setuptools"
   ],
   "django-discover-runner": [
     "setuptools"
@@ -4073,6 +4116,9 @@
   "django-environ": [
     "setuptools"
   ],
+  "django-eventtools": [
+    "setuptools"
+  ],
   "django-extensions": [
     "setuptools"
   ],
@@ -4085,6 +4131,9 @@
   "django-formtools": [
     "setuptools",
     "setuptools-scm"
+  ],
+  "django-fsm": [
+    "setuptools"
   ],
   "django-graphiql-debug-toolbar": [
     "poetry-core",
@@ -4108,6 +4157,9 @@
     "setuptools"
   ],
   "django-htmx": [
+    "setuptools"
+  ],
+  "django-imagekit": [
     "setuptools"
   ],
   "django-ipware": [
@@ -4147,6 +4199,9 @@
   "django-nested-admin": [
     "setuptools"
   ],
+  "django-ninja": [
+    "flit-core"
+  ],
   "django-nose": [
     "setuptools"
   ],
@@ -4163,6 +4218,9 @@
     "setuptools"
   ],
   "django-pglocks": [
+    "setuptools"
+  ],
+  "django-phonenumber-field": [
     "setuptools"
   ],
   "django-picklefield": [
@@ -4216,6 +4274,9 @@
     "setuptools-scm"
   ],
   "django-simple-captcha": [
+    "setuptools"
+  ],
+  "django-simple-history": [
     "setuptools"
   ],
   "django-sites": [
@@ -4274,13 +4335,22 @@
   "djangorestframework": [
     "setuptools"
   ],
+  "djangorestframework-api-key": [
+    "setuptools"
+  ],
   "djangorestframework-camel-case": [
+    "setuptools"
+  ],
+  "djangorestframework-csv": [
     "setuptools"
   ],
   "djangorestframework-dataclasses": [
     "setuptools"
   ],
   "djangorestframework-guardian": [
+    "setuptools"
+  ],
+  "djangorestframework-filters": [
     "setuptools"
   ],
   "djangorestframework-jwt": [
@@ -4482,6 +4552,12 @@
   "dremel3dpy": [
     "setuptools"
   ],
+  "drf-extensions": [
+    "setuptools"
+  ],
+  "drf-extra-fields": [
+    "setuptools"
+  ],
   "drf-jwt": [
     "setuptools"
   ],
@@ -4497,6 +4573,9 @@
   "drf-yasg": [
     "setuptools",
     "setuptools-scm"
+  ],
+  "drfpasswordless": [
+    "setuptools"
   ],
   "drivelib": [
     "setuptools"
@@ -4939,7 +5018,8 @@
     "flit-scm",
     "flitBuildHook",
     "flit-scm",
-    "setuptools"
+    "setuptools",
+    "setuptools-scm"
   ],
   "exchangelib": [
     "setuptools"
@@ -5165,6 +5245,9 @@
   "fhconfparser": [
     "poetry-core"
   ],
+  "fhir-resources": [
+    "setuptools"
+  ],
   "fiblary3-fork": [
     "setuptools"
   ],
@@ -5248,6 +5331,9 @@
     "setuptools"
   ],
   "fire": [
+    "setuptools"
+  ],
+  "firebase-admin": [
     "setuptools"
   ],
   "fireflyalgorithm": [
@@ -5854,6 +5940,9 @@
   "geocachingapi": [
     "setuptools",
     "setuptools-scm"
+  ],
+  "geocoder": [
+    "setuptools"
   ],
   "geographiclib": [
     "setuptools"
@@ -8011,6 +8100,9 @@
   "language-formatters-pre-commit-hooks": [
     "setuptools"
   ],
+  "laboratory": [
+    "setuptools"
+  ],
   "lark": [
     "setuptools"
   ],
@@ -8354,6 +8446,9 @@
     "pbr",
     "setuptools"
   ],
+  "log-colorizer": [
+    "setuptools"
+  ],
   "log-symbols": [
     "setuptools"
   ],
@@ -8586,6 +8681,9 @@
     "setuptools"
   ],
   "markerlib": [
+    "setuptools"
+  ],
+  "markuppy": [
     "setuptools"
   ],
   "markups": [
@@ -8907,6 +9005,9 @@
     "setuptools"
   ],
   "mixer": [
+    "setuptools"
+  ],
+  "mixpanel": [
     "setuptools"
   ],
   "mizani": [
@@ -10614,6 +10715,9 @@
   "pdfrw": [
     "setuptools"
   ],
+  "pdfrw2": [
+    "setuptools"
+  ],
   "pdftotext": [
     "setuptools"
   ],
@@ -12243,6 +12347,9 @@
   "pyhcl": [
     "setuptools"
   ],
+  "pyheif": [
+    "setuptools"
+  ],
   "pyheos": [
     "setuptools"
   ],
@@ -12655,6 +12762,9 @@
   "pynac": [
     "setuptools"
   ],
+  "pynliner": [
+    "setuptools"
+  ],
   "pynacl": [
     "setuptools"
   ],
@@ -12826,7 +12936,8 @@
     "setuptools"
   ],
   "pypdf2": [
-    "setuptools"
+    "setuptools",
+    "flit-core"
   ],
   "pypdf3": [
     "setuptools"
@@ -13547,6 +13658,9 @@
     "setuptools"
   ],
   "pytest-factoryboy": [
+    "setuptools"
+  ],
+  "pytest-faker": [
     "setuptools"
   ],
   "pytest-filter-subpackage": [
@@ -15055,6 +15169,9 @@
     "setuptools"
   ],
   "respx": [
+    "setuptools"
+  ],
+  "rest-condition": [
     "setuptools"
   ],
   "restfly": [
@@ -17924,6 +18041,9 @@
     "setuptools"
   ],
   "uncertainties": [
+    "setuptools"
+  ],
+  "uncompyle6": [
     "setuptools"
   ],
   "unicode-slugify": [
